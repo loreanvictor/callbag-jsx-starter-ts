@@ -26,4 +26,5 @@
   - Prod specific config in `webpack.prod.js`
 
 - [ESLint](https://eslint.org) for linting
+  - [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) for using ESLint on Typescript
   - Configuration in `.eslintrc`
