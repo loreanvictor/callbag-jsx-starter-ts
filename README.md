@@ -10,9 +10,9 @@
 
 <br><br>
 
-**GET STARTED**: [Use this template](https://github.com/loreanvictor/callbag-jsx-starter-ts/generate) and clone your repo (if you haven't already).
+[Use this template](https://github.com/loreanvictor/callbag-jsx-starter-ts/generate) and clone your repo (if you haven't already).
 
-**DEV COMMANDS**:
+Useful commands:
 
 ```bash
 npm i             # 👉  install dependencies
