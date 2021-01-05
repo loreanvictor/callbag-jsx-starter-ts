@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -r ts-node/register src/test/index.ts"
   },
   "repository": {
     "type": "git",
@@ -25,12 +25,18 @@
     "render-jsx": "^0.2.4"
   },
   "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.2.0",
     "@typescript-eslint/eslint-plugin": "^4.7.0",
     "@typescript-eslint/parser": "^4.7.0",
+    "chai": "^4.2.0",
     "clean-webpack-plugin": "^3.0.0",
     "eslint": "^7.13.0",
     "html-webpack-plugin": "^4.5.0",
+    "mocha": "^8.2.1",
+    "test-callbag-jsx": "^0.1.1",
     "ts-loader": "^8.0.11",
+    "ts-node": "^9.1.1",
     "tslib": "^2.0.3",
     "typescript": "^4.0.5",
     "webpack": "^5.4.0",

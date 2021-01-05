@@ -6,10 +6,12 @@
 1. Clone your repo and `cd` to it
 1. Install dependencies: `npm i`
 1. Start dev server: `npm start`
-    1. Entry file is in `src/index.tsx`
+    1. Entry file is `src/index.tsx`
     1. Dev version is served on `localhost:3000`
 1. Build your app: `npm run build`
     1. Build files are in `dist/`
+1. Run tests: `npm test`
+    1. Test root is `src/test/index.ts`
 
 👉 Don't forget to [read the docs](https://loreanvictor.github.io/callbag-jsx/).
 
@@ -28,3 +30,6 @@
 - [ESLint](https://eslint.org) for linting
   - [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) for using ESLint on Typescript
   - Configuration in `.eslintrc`
+
+- [Mocha](https://mochajs.org/#configuring-mocha-nodejs) & [Chai](https://www.chaijs.com) for testing
+  - [TS-Node](https://github.com/TypeStrong/ts-node) for binding TypeScript into Mocha
