@@ -6,7 +6,11 @@
 
 </div>
 
-[Use this template](https://github.com/loreanvictor/callbag-jsx-starter-ts/generate) and clone your repo. Useful commands:
+<br><br>
+
+**GET STARTED**: [Use this template](https://github.com/loreanvictor/callbag-jsx-starter-ts/generate) and clone your repo (if you haven't already).
+
+**DEV COMMANDS**:
 
 ```bash
 npm i             # 👉  install dependencies
