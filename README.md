@@ -1,17 +1,29 @@
+<div align="center">
+
 <img width="156px" src="https://raw.githubusercontent.com/loreanvictor/callbag-jsx/2dce75006b1046ae28edfb8f4ba4af164b167f56/docs/assets/callbag-jsx.svg"/>
 
 # Starter project for [`callbag-jsx`](https://github.com/loreanvictor/callbag-jsx)
 
-1. [Use this template](https://github.com/loreanvictor/callbag-jsx-starter-ts/generate)
-1. Clone your repo and `cd` to it
-1. Install dependencies: `npm i`
-1. Start dev server: `npm start`
-    1. Entry file is `src/index.tsx`
-    1. Dev version is served on `localhost:3000`
-1. Build your app: `npm run build`
-    1. Build files are in `dist/`
-1. Run tests: `npm test`
-    1. Test root is `src/test/index.ts`
+</div>
+
+[Use this template](https://github.com/loreanvictor/callbag-jsx-starter-ts/generate) and clone your repo. Useful commands:
+
+```bash
+npm i             # 👉  install dependencies
+```
+```bash
+npm start         # 👉  start dev server
+                  # --> entry file is src/index.tsx
+                  # --> served on localhost:3000
+```
+```bash
+npm run build     # 👉  build your app
+                  # --> build files in dist/
+```
+```bash
+npm test          # 👉  run tests
+                  # --> test root is src/test/index.ts
+```
 
 👉 Don't forget to [read the docs](https://loreanvictor.github.io/callbag-jsx/).
 
