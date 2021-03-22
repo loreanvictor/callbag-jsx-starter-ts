@@ -5,9 +5,9 @@ should();
 
 describe('some test', () => {
   it('should render stuff.', () => {
-    testRender((renderer, document) => {
-      renderer.render(<h1>Hellow World!</h1>).on(document.body);
-      document.body.textContent!.should.equal('Hellow World!');
+    testRender((renderer, { $, render }) => {
+      render(<h1>Hellow World!</h1>);
+      $('body').text()!.should.equal('Hellow World!');
     });
   });
 });
