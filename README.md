@@ -40,10 +40,11 @@ npm test          # 👉  run tests
 - [Typescript](https://www.typescriptlang.org/) for transpilation
   - Configuration in `tsconfig.json`
 
-- [Webpack](https://webpack.js.org) for bundling and dev server
-  - Configuration in `webpack.common.js`
-  - Dev specific config in `webpack.dev.js`
-  - Prod specific config in `webpack.prod.js`
+- [Snowpack](https://snowpack.dev) for dev server
+  - Configuration in `snowpack.config.js`
+
+- [Webpack](https://webpack.js.org) for production bundling
+  - Configuration in `webpack.config.js`
 
 - [ESLint](https://eslint.org) for linting
   - [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) for using ESLint on Typescript

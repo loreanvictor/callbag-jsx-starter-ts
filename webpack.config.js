@@ -1,10 +1,14 @@
+// Webpack Configuration File
+// See all supported options: https://webpack.js.org/configuration/
+
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 
-
+/** @type {import("webpack").Configuration } */
 module.exports = {
+  mode: 'production',
   entry: {
     app: './src/index.tsx',
   },
